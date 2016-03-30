@@ -1,0 +1,6 @@
+function html(url) 
+{
+    var page = UrlFetchApp.fetch(url);
+    var html = page.getContentText();
+return html;
+}
